@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Take Home Assignment</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="contentDiv">
+      <div id="headerDiv">
+        <header>
+          <h1>Inventory</h1>
+        </header>
+      </div>
+      <div id="tabsDiv">
+        <button
+          id="vegetablesTab"
+          class="tab"
+          onclick="changeTab('vegetables')"
+        >
+          Vegetables
+        </button>
+        <button id="spicesTab" class="tab" onclick="changeTab('spices')">
+          Spices
+        </button>
+        <button id="fruitsTab" class="tab" onclick="changeTab('fruits')">
+          Fruits
+        </button>
+      </div>
+      <div id="listDiv"><ul id="list"></ul></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
