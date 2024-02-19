@@ -1,0 +1,62 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  width: 50%;
+}
+
+#headerDiv {
+  background-color: #9fd2ea;
+  padding: 10px;
+  margin: 5px;
+}
+
+#tabsDiv {
+  background-color: grey;
+  padding: 10px;
+  margin: 5px;
+}
+
+#listDiv {
+  background-color: white;
+  padding: 10px;
+  margin: 5px;
+}
+
+.tab {
+  background-color: #f0f0f0;
+  border: none;
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.tab:hover {
+  background-color: #ddd;
+}
+
+.tab.active {
+  background-color: #2ecc71;
+  border-color: #27ae60;
+}
+
+#list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: auto;
+}
+
+#list li {
+  list-style: none;
+  padding: 8px;
+  border: 1px solid #ddd;
+  margin-top: -1px;
+  background-color: #f9f9f9;
+  cursor: pointer;
+}
+
+#list li.selected {
+  background-color: #8fca8f;
+}
